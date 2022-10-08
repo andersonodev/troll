@@ -14,7 +14,7 @@ $('#move').hover(function () {
 })
 
 function acerto() {
-  alert('Te Amo! Obrigado por aceitar por vontade própria')
+  alert('Te Amo!! Obrigado por aceitar por vontade própria')
 }
 
 function change() {
