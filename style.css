@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  background-color: rgb(45, 26, 63);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.pedido {
+  background-color: rgb(72, 63, 80);
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+}
+
+p {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+.botoes {
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #d8bfd8;
+  color: #38306e;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  box-shadow: 5px 2px 2px black;
+}
+
+.hidden {
+  display: none;
+}
+
+#move {
+  left: 200px;
+}
+
+#change:hover {
+  cursor: pointer;
+}
+
+.playlist {
+  padding: 100px;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
